@@ -1,0 +1,301 @@
+
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #3d3d3d;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+  outline: none;
+  outline-offset: none;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #ffaa00;
+  border-color: #f8f8f8;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #f8f8f8;
+  background-color: #ffaa00;
+  border-color: #f8f8f8;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  color: #f8f8f8;  
+  padding: 20px 32px;
+  font-size: 32px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;*/
+}
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    background: url(../img/logo.png) no-repeat;
+    }
+
+.kilton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background: url(../img/kilton.jpg) no-repeat;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    }
+
+.param {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background: url(../img/param.jpg) no-repeat;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    }
+
+.interface {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    background: url(../img/screenshot.png) no-repeat;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+    }
+
+
+.intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.intro-message > h1 {
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+    font-size: 8em;
+    font-weight: 300;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    font-size: 2.25em;
+    line-height: 1.5;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 6em;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.navbar-default {
+  opacity: .3;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 10px;
+  /*background-color: #34323a;*/
+  height: 68px;
+  border-bottom: 0px;
+}
+
+.navplace {
+    display: block;
+    height: 67px;
+    margin-top:-67px;
+}
+
+.navbar-collapse {
+  background-color: #f8f8f8;d
+}
+
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    height: 100%;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    height: 100%;
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    /*background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;*/
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
