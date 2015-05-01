@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     line-height: 1.5;
 }
@@ -90,12 +90,10 @@ a:focus {
 
 .intro-message > h1 {
     margin: 0;
-    color: #ffffff;
+    color: #f2f2f2;
     text-shadow: 1px 2px 3px rgba(0,0,0,0.6);
     font-size: 10em;
     font-weight: 300;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 
@@ -103,6 +101,12 @@ a:focus {
     font-size: 3em;
     line-height: 1.5;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.intro-message > a {
+    color: #f2f2f2;
+    margin-top: 40px;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.6);
 }
 
 @media(max-width:767px) {
@@ -151,7 +155,7 @@ a:focus {
 
 .banner {
     padding: 100px 0;
-    color: #f8f8f8;
+    color: #f2f2f2;
     /*background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;*/
 }
@@ -204,4 +208,8 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.smoothScroll {
+    padding-top: 64px;
 }
