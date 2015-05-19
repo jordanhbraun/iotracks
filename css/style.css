@@ -37,7 +37,7 @@ a:focus {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 24px; /* If you're making other pages, make sure there is 36px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -100,7 +100,7 @@ a:focus {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     font-size: 8em;
     font-weight: 300;
-    padding-bottom: 48px;
+    padding-bottom: 0px;
 }
 
 
@@ -144,8 +144,8 @@ a:focus {
   padding-top: 10px;
   height: 68px;
   border-bottom: 0px;
-  background: none;
   color: #f2f2f2;
+  background-color: transparent;
 }
 
 
@@ -236,3 +236,4 @@ p.copyright {
 .smoothScroll {
     padding-top: 64px;
 }
+
